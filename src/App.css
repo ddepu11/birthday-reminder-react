@@ -127,6 +127,7 @@ button:focus {
     font-size: 1em;
     margin-bottom: 40px;
   }
+
   .person {
     margin-bottom: 20px;
     margin-left: 0px;
@@ -137,6 +138,7 @@ button:focus {
     letter-spacing: 1.1px;
     font-size: 1em;
   }
+
   button {
     padding: 8px 16px;
     border-radius: 0px;
@@ -147,6 +149,7 @@ button:focus {
   .info p {
     font-size: 0.9em;
   }
+
   .avatar {
     width: 60px;
     height: 60px;
