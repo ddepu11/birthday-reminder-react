@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+/*Utility class*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(
+    to right top,
+    #8492ed,
+    #c176d8,
+    #ed52a8,
+    #fd3a65,
+    #eb4b12
+  );
+  padding: 20px 25px;
+  border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #e2fb6a,
+    #ffd558,
+    #ffae68,
+    #ff8d87,
+    #ff7aa7,
+    #ff73a8,
+    #ff6baa,
+    #ff63ac,
+    #ff5d89,
+    #f85e67,
+    #ea6448,
+    #d56d2b
+  );
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.person {
+  justify-content: flex-start;
+  margin-bottom: 22px;
+  margin-left: 50px;
+  transition: all 0.5s ease-out;
+}
+.person:hover {
+  transform: scale(1.1) translateY(-3px);
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 55%;
+  overflow: hidden;
+  margin-right: 25px;
+}
+.info h4 {
+  margin-top: -25px;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+}
+.info p {
+  letter-spacing: 1px;
+  color: #333;
+  font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.35em;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #444444;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 0.5s ease-out;
+}
+button:hover {
+  transform: scale(1.02) translateY(-3px);
+  background: #a50b0b;
+  color: white;
+  letter-spacing: 2px;
+}
+button:focus {
+  outline: 0;
+}
