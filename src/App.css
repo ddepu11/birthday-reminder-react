@@ -45,6 +45,7 @@ body {
     #d56d2b
   );
   color: white;
+  padding: 0 15px;
 }
 .container {
   max-width: 1200px;
@@ -118,4 +119,36 @@ button:hover {
 }
 button:focus {
   outline: 0;
+}
+
+@media (max-width: 538px) {
+  .container h1 {
+    letter-spacing: 1.2px;
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .person {
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+
+  .info h4 {
+    margin-bottom: 5px;
+    letter-spacing: 1.52px;
+    font-size: 1em;
+  }
+  button {
+    padding: 8px 16px;
+    border-radius: 0px;
+    font-size: 1.2em;
+  }
+
+  .info p {
+    font-size: 0.9em;
+  }
+  .avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 18px;
+  }
 }
