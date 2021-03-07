@@ -17,7 +17,7 @@
     #fd3a65,
     #eb4b12
   );
-  padding: 20px 25px;
+  padding: 10px 25px;
   border-radius: 20px;
 }
 
@@ -45,7 +45,7 @@ body {
     #d56d2b
   );
   color: white;
-  padding: 0 15px;
+  padding: 20px 15px;
 }
 .container {
   max-width: 1200px;
@@ -123,24 +123,25 @@ button:focus {
 
 @media (max-width: 538px) {
   .container h1 {
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     font-size: 1em;
     margin-bottom: 40px;
   }
   .person {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 0px;
   }
 
   .info h4 {
     margin-bottom: 5px;
-    letter-spacing: 1.52px;
+    letter-spacing: 1.1px;
     font-size: 1em;
   }
   button {
     padding: 8px 16px;
     border-radius: 0px;
     font-size: 1.2em;
+    margin-top: -10px;
   }
 
   .info p {

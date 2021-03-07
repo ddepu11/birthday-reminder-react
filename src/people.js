@@ -1,6 +1,6 @@
 const people = [
   {
-    name: "Cassady Campabell",
+    name: "Casady Brown",
     avatar: "https://i.pravatar.cc/150?img=68",
     age: "30",
   },
